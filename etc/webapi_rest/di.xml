@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Newbury\WishlistApi\Api\WishlistManagementInterface" type="Newbury\WishlistApi\Model\WishlistManagement"/>
+    <preference for="Newbury\WishlistApi\Api\Data\WishlistInterface" type="Magento\Framework\DataObject"/>
+    <preference for="Newbury\WishlistApi\Api\Data\WishlistItemInterface" type="Magento\Framework\DataObject"/>
+    <preference for="Newbury\WishlistApi\Api\Data\RequestInterface" type="Newbury\WishlistApi\Model\Request"/>
+</config>

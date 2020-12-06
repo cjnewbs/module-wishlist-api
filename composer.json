@@ -1,0 +1,24 @@
+{
+    "name": "newbury/module-wishlist-api",
+    "description": "Provides REST API endpoints for magento/module-wishlist",
+    "type": "magento2-module",
+    "license": [
+        "GPL-3.0"
+    ],
+    "version": "0.0.1",
+    "require": {
+        "php": ">=7.0",
+        "magento/framework": "103.0.*",
+        "magento/module-catalog": "104.0.*",
+        "magento/module-wishlist": "101.2.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Newbury\\WishlistApi\\": ""
+        }
+    }
+}
+
