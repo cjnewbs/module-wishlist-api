@@ -95,7 +95,7 @@ class WishlistManagement implements WishlistManagementInterface
                 }
             }
             if ($superAttributes) {
-                $buyRequest->setData('super_attributes', $superAttributes);
+                $buyRequest->setData('super_attribute', $superAttributes);
             }
             if ($bundleOptionQtys) {
                 $buyRequest->setData('bundle_option_qty', $bundleOptionQtys);
